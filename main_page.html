@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="style_main_page.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="pictures/logo.png" alt=""> Spotify</li>
+            <li onclick="gotohome()" id="extra">Home</li>
+            <li id="extra">About</li>
+        </ul>
+    </nav>
+    <div class="content">
+        <div class="side">
+            <div class="sidetext">
+                <div class="lib">LIBRARY</div>
+                <li id="ele1">History</li>
+                <li id="ele2">Songs</li>
+                <li id="ele3">Albums</li>
+                <li id="ele4">Artists</li>
+            </div>
+        </div>
+        <div id="main">
+            <div class="name">Hi Admin , what's ur mood ?</div>
+            <div class="singers">
+                <div class="row1">
+                    <div class="singer" id="singer1" onclick="redirect()">SONU NIGAM</div>
+                    <div class="singer" id="singer2" onclick="redirect()">NEHA KAKKAR</div>
+                    <div class="singer" id="singer3" onclick="redirect()">AR RAHMAN</div>
+                    <div class="singer" id="singer4" onclick="redirect()">ALKA YAGNIK</div>
+                </div>
+                <div class="row2">
+                    <div class="singer" id="singer5" onclick="redirect()">SHREYA GHOSHAL</div>
+                    <div class="singer" id="singer6" onclick="redirect()">ARIJIT SINGH</div>
+                    <div class="singer" id="singer7" onclick="redirect()">NITI MOHAN</div>
+                    <div class="singer" id="singer8" onclick="redirect()">ATIF ASLAM</div>
+                </div>
+                <div class="row3">
+                    <div class="singer" id="singer9" onclick="redirect()">DARSHAN RAVAL</div>
+                    <div class="singer" id="singer10" onclick="redirect()">USHA UTHUP</div>
+                    <div class="singer" id="singer11" onclick="redirect()">BADSHAH</div>
+                    <div class="singer" id="singer12" onclick="redirect()">SUNIDHI CHAUHAN</div>
+                </div>
+                <div class="row4">
+                    <div class="singer" id="singer13" onclick="redirect()">PALAK MUCHHAL</div>
+                    <div class="singer" id="singer14" onclick="redirect()">SHAAN</div>
+                    <div class="singer" id="singer15" onclick="redirect()">KANIKA KAPOOR</div>
+                    <div class="singer" id="singer16" onclick="redirect()">YO YO HONEY SINGH</div>
+                </div>
+            </div>
+        </div>
+   </div>
+    <script src="script_main_page.js"></script>
+</body>
+</html>

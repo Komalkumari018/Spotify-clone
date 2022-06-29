@@ -1,0 +1,60 @@
+
+.row{
+    display:flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+
+.song{
+    color:black;
+    padding: 10px;
+    border: 5px solid rgb(36, 34, 34);
+    margin: 20px;
+    background: linear-gradient(rgb(234, 238, 32),rgb(123, 243, 43));
+    width:411px;
+    height:30px;
+}
+.song:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px rgb(56, 231, 94);
+    border: rgb(56, 231, 94);
+}
+.container{
+    min-height: 60vh;
+}
+
+#gif{
+    width: 80px;
+    opacity:0;
+    transition: opacity 0.4s ease-in;
+ }
+ 
+/* bottom play bar */
+.bottom{
+    position: sticky;
+    height:130px;
+    background-color: black;
+    opacity: 0.75;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#myprogressBar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+#btn1,#btn2,#btn3{
+    margin: 20px;
+    font-size: 54px;
+}
+#btn1:hover,#btn2:hover,#btn3:hover{
+    background-color: grey;
+    cursor: pointer;
+    border-radius: 25%;
+}

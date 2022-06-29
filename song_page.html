@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your favourite music is here</title>
+    <link rel="stylesheet" href="style_main_page.css">
+    <link rel="stylesheet" href="style_song_page.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="pictures/logo.png" alt=""> Spotify</li>
+            <li onclick="gotohome()" id="extra">Home</li>
+            <li id="extra">About</li>
+        </ul>
+    </nav>
+    <div class="content">
+        <div class="side">
+            <div class="sidetext">
+                <div class="lib">LIBRARY</div>
+                <li id="ele1">History</li>
+                <li id="ele2">Songs</li>
+                <li id="ele3">Albums</li>
+                <li id="ele4">Artists</li>
+            </div>
+        </div>
+        <div id="main">
+            <div class="name">Hi Admin , lets play the beat !! </div>
+            <div class="music">
+                <div class="row">
+                    <div id="1" class="song"  onclick="sound(this.id)">Song 1 <img src="pictures/playing.gif" alt="" id="gif"></div>
+                    <div id="2" class="song" onclick="sound(this.id)">Song 2 <img src="pictures/playing.gif" alt="" id="gif"></div>
+                </div>
+                
+                <div class="row">
+                    <div id="3" class="song"  onclick="sound(this.id)">Song 3 <img src="pictures/playing.gif" alt="" id="gif"></div>
+                    <div id="4" class="song" onclick="sound(this.id)">Song 4 <img src="pictures/playing.gif" alt="" id="gif"></div>
+                </div>
+
+                <div class="row">
+                    <div id="5" class="song"  onclick="sound(this.id)">Song 5 <img src="pictures/playing.gif" alt="" id="gif"></div>
+                    <div id="6" class="song" onclick="sound(this.id)">Song 6 <img src="pictures/playing.gif" alt="" id="gif"></div>
+                </div>
+
+                <div class="row">
+                    <div id="7" class="song"  onclick="sound(this.id)">Song 7 <img src="pictures/playing.gif" alt="" id="gif"></div>
+                    <div id="8" class="song" onclick="sound(this.id)">Song 8 <img src="pictures/playing.gif" alt="" id="gif"></div>
+                </div>
+
+                <div class="row">
+                    <div id="9" class="song"  onclick="sound(this.id)">Song 9 <img src="pictures/playing.gif" alt="" id="gif"></div>
+                    <div id="10" class="song" onclick="sound(this.id)">Song 10 <img src="pictures/playing.gif" alt="" id="gif"></div>
+                </div>
+            </div>
+        </div>
+
+   </div>
+   <div class="bottom">
+        <input type="range" name="range" id="myprogressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <i class="material-icons" id="btn1" >skip_previous</i>
+            <i class="material-icons " id="btn2" >play_circle</i>
+            <i class="material-icons" id="btn3">skip_next</i>
+        </div>
+    </div>
+    <script src="script_song_page.js"></script>
+</body>
+</html>
